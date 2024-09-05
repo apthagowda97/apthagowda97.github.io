@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aptha K S - Machine Learning Engineer</title>
+    <style>
+        :root {
+            --primary-color: #3498db;
+            --secondary-color: #2c3e50;
+            --background-color: #f0f3f5;
+            --text-color: #34495e;
+            --section-bg-color: #ffffff;
+            --accent-color: #e74c3c;
+        }
+        body {
+            font-family: 'Roboto', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: var(--text-color);
+            background-color: var(--background-color);
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 900px;
+            margin: 40px auto;
+            background-color: var(--section-bg-color);
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+        }
+        h1, h2 {
+            color: var(--secondary-color);
+        }
+        h1 {
+            font-size: 3em;
+            border-bottom: none;
+            padding-bottom: 10px;
+            text-align: center;
+            margin-bottom: 10px;
+        }
+        h2 {
+            font-size: 2em;
+            margin-top: 40px;
+            border-bottom: 2px solid var(--primary-color);
+            padding-bottom: 10px;
+        }
+        .section {
+            margin-bottom: 40px;
+        }
+        .experience, .project {
+            background-color: var(--background-color);
+            border-left: 4px solid var(--primary-color);
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 0 10px 10px 0;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .experience:hover, .project:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+        .contact-info {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .contact-info p {
+            margin: 5px 0;
+            background-color: var(--background-color);
+            padding: 10px 15px;
+            border-radius: 20px;
+            transition: background-color 0.3s ease;
+        }
+        .contact-info p:hover {
+            background-color: var(--primary-color);
+            color: white;
+        }
+        .github-stats {
+            display: flex;
+            justify-content: space-around;
+            background-color: var(--secondary-color);
+            color: white;
+            padding: 20px;
+            border-radius: 10px;
+            margin-top: 30px;
+        }
+        .github-stats div {
+            text-align: center;
+        }
+        .github-stats h3 {
+            font-size: 2em;
+            margin: 0;
+            color: var(--accent-color);
+        }
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            color: var(--text-color);
+            font-size: 0.9em;
+        }
+        .skills-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        .skill-tag {
+            background-color: var(--primary-color);
+            color: white;
+            padding: 5px 10px;
+            border-radius: 15px;
+            font-size: 0.9em;
+        }
+        .profile-summary {
+            text-align: center;
+            font-size: 1.1em;
+            max-width: 800px;
+            margin: 0 auto 30px;
+            line-height: 1.8;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Aptha K S</h1>
+        <p class="profile-summary">Senior Engineer at Siemens Healthineers | Ex - Fractal, Accenture | GenAI | MLOps | Python | PyTorch | Deep Learning | Kubernetes</p>
+
+        <div class="section">
+            <h2>Summary</h2>
+            <p>Machine Learning Engineer by training with a love for Computer Vision. Skilled in Python, Deep Learning frameworks like PyTorch and Tensorflow along with Kubernetes and Docker for the deployment of Machine Learning Applications through CI/CD pipelines.</p>
+        </div>
+
+        <div class="section">
+            <h2>Experience</h2>
+            <div class="experience">
+                <h3>Siemens Healthineers</h3>
+                <p><strong>Senior Engineer</strong><br>December 2022 - Present (1 year 10 months)<br>Bengaluru, Karnataka, India</p>
+            </div>
+            <div class="experience">
+                <h3>Fractal</h3>
+                <p><strong>Machine Learning Engineer</strong><br>May 2022 - December 2022 (8 months)<br>Bengaluru, Karnataka, India</p>
+                <ul>
+                    <li>Worked for a US telecom client on the development of CI/CD pipelines for the deployment of a machine learning model in Kubernetes.</li>
+                    <li>Worked on a proof of concept for deploying Seldon Deployments using ArgoCD and successfully incorporated it into the core CD pipeline.</li>
+                </ul>
+            </div>
+            <div class="experience">
+                <h3>Accenture</h3>
+                <p><strong>Machine Learning Engineer</strong><br>October 2019 - April 2022 (2 years 7 months)<br>Bengaluru, Karnataka, India</p>
+                <ul>
+                    <li>Worked on different approaches of deploying Machine Learning microservices using Azure Kubernetes Services, Azure Functions, and Azure Databricks.</li>
+                    <li>Used Azure DevOps to set up CI/CD Pipelines for creating Machine Learning microservice Docker containers, pushing them to Azure Container Registry, and deploying them to Azure Kubernetes Services in different stages like dev, stg, and prd for 15+ use cases.</li>
+                    <li>Developed Sentiment Analysis API using Django and PyTorch by fine-tuning the BERT Base uncased model on a custom dataset and deployed the quantized model in production for faster inference.</li>
+                    <li>Developed Trend API and deployed it in production to detect trending hashtags and post titles based on user interactions with a bin size of 24 hours and a window size of 7 days.</li>
+                    <li>Worked on a Text to Speech POC with Tacotron2 and WaveGlow and used transfer learning to synthesize Indian Voices using the Indian Speech Dataset.</li>
+                    <li>Implemented weekly automatic training of a Recommendation Machine Learning Model developed by the team in Azure Machine Learning using Azure DevOps pipelines.</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Featured Projects</h2>
+            <div class="project">
+                <h3><a href="https://github.com/apthagowda97/emotion_analysis">emotion_analysis</a></h3>
+                <p>This project aims at building a pipeline that identifies each student/lecturer in the classroom and captures the emotions of each one of them.</p>
+                <p><strong>Technologies:</strong> Jupyter Notebook, Computer Vision, Machine Learning</p>
+            </div>
+            <div class="project">
+                <h3><a href="https://github.com/apthagowda97/grafana-monitoring">grafana-monitoring</a></h3>
+                <p>A monitoring solution using Grafana for visualizing system metrics and performance.</p>
+                <p><strong>Technologies:</strong> Python, Grafana, Monitoring</p>
+            </div>
+            <div class="project">
+                <h3><a href="https://github.com/apthagowda97/techtrends">techtrends</a></h3>
+                <p>A web application for sharing technology news and trends.</p>
+                <p><strong>Technologies:</strong> Python, Web Development</p>
+            </div>
+            <div class="project">
+                <h3><a href="https://github.com/apthagowda97/udaconnect">udaconnect</a></h3>
+                <p>A location-based application for connecting people.</p>
+                <p><strong>Technologies:</strong> Python, Kubernetes, Microservices</p>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Skills</h2>
+            <div class="skills-container">
+                <span class="skill-tag">Python</span>
+                <span class="skill-tag">PyTorch</span>
+                <span class="skill-tag">Kubernetes</span>
+                <span class="skill-tag">TensorFlow</span>
+                <span class="skill-tag">Deep Learning</span>
+                <span class="skill-tag">Computer Vision</span>
+                <span class="skill-tag">MLOps</span>
+                <span class="skill-tag">GenAI</span>
+                <span class="skill-tag">Docker</span>
+                <span class="skill-tag">CI/CD</span>
+                <span class="skill-tag">Azure DevOps</span>
+                <span class="skill-tag">Azure Kubernetes Services</span>
+                <span class="skill-tag">Azure Functions</span>
+                <span class="skill-tag">Azure Databricks</span>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Languages</h2>
+            <ul>
+                <li>Hindi (Full Professional)</li>
+                <li>English (Full Professional)</li>
+                <li>Kannada (Native or Bilingual)</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Education</h2>
+            <p><strong>J S S Academy of Technical Education, BANGALORE</strong><br>
+            Bachelor of Engineering (B.E.), Computer and Information Sciences, General (2015 - 2019)</p>
+            <p><strong>Udacity</strong><br>
+            Cloud Native Application Architecture Nanodegree, Computer Science (August 2021 - December 2021)</p>
+            <p><strong>Udacity</strong><br>
+            Intel® Edge AI for IoT Developers Nanodegree, Computer Science (2020 - 2020)</p>
+        </div>
+
+        <div class="section">
+            <h2>Certifications</h2>
+            <ul>
+                <li>Deep Learning and Computer Vision</li>
+                <li>Deep Learning Specialization</li>
+                <li>TensorFlow Developer</li>
+                <li>Machine Learning</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Honors & Awards</h2>
+            <ul>
+                <li>38th rank in 5th session of mlcourse.ai, spring 2019.</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Contact</h2>
+            <div class="contact-info">
+                <p>📧 Email: <a href="mailto:iamuraptha@gmail.com">iamuraptha@gmail.com</a></p>
+                <p>🐙 GitHub: <a href="https://github.com/apthagowda97">@apthagowda97</a></p>
+                <p>💼 LinkedIn: <a href="https://www.linkedin.com/in/apthaks">www.linkedin.com/in/apthaks</a></p>
+            </div>
+        </div>
+
+        <footer>
+            <p>&copy; 2023 Aptha K S. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>
